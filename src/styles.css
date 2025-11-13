@@ -1,1 +1,40 @@
-/* You can add global styles to this file, and also import other style files */
+.navbar-brand {
+    font-weight: bold;
+    display: flex;
+    align-items: center; 
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 0px;
+}
+
+.text-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-brand .umzugs {
+    font-size: 1.1em;
+    line-height: 1.1;
+    padding:20px 0px
+}
+
+.navbar-brand .service {
+    font-size: 0.9em;
+    line-height: 1.1;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 400px;
+}
+body {
+    background-color: rgba(170, 196, 193, 0.566)
+}

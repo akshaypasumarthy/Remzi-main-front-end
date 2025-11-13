@@ -1,0 +1,24 @@
+<div class="auth-container">
+  <div class="switch-bar">
+    <button [class.active]="mode === 'login'" (click)="switchMode('login')">Login</button>
+    <button [class.active]="mode === 'register'" (click)="switchMode('register')">Register</button>
+  </div>
+
+  <form *ngIf="mode === 'login'" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+    <h2>Admin Login</h2>
+    <input formControlName="email_address" type="email" placeholder="Email_address" />
+    <input formControlName="password" type="password" placeholder="password" />
+    <button type="submit">Login</button>
+  </form>
+
+  <form *ngIf="mode === 'register'" [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <h2>Admin Registration</h2>
+    <input formControlName="full_name" type="text" placeholder="full_name" />
+    <input formControlName="email_address" type="email" placeholder="email_address" />
+    <input formControlName ="phone_number" type="tel" placeholder="phone_number" />
+    <input formControlName="password" type="password" placeholder="password" />
+    <button type="submit">Register</button>
+  </form>
+
+  <p class="message">{{ message }}</p>
+</div>

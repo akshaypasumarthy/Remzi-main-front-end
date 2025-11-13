@@ -1,0 +1,24 @@
+<section class="reviews-section">
+  <div class="container">
+    <h2>Customer Reviews</h2>
+
+    <div class="reviews-grid" >
+      <div class="review-card" *ngFor="let review of allReviews">
+        <div class="review-header">
+          <h3>{{ review.full_name }}</h3>
+          <span class="rating">
+            ⭐ {{ review.rating }}/5
+          </span>
+        </div>
+        <p class="review-text">“{{ review.review }}”</p>
+        <div class="review-footer">
+          <small>{{ review.email_address }}</small> • 
+        </div>
+      </div>
+    </div>
+
+    <ng-template #noReviews>
+      <p class="no-reviews">No reviews available yet.</p>
+    </ng-template>
+  </div>
+</section>

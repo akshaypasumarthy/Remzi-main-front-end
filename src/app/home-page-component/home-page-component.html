@@ -1,0 +1,173 @@
+<!-- home-page-component.html -->
+<div>
+  <select class="custom-select" (change)="changeLang($event)">
+    <option value="en" [selected]="lang == 'en'">English</option>
+    <option value="de" [selected]="lang == 'de'">Deutsch</option>
+  </select>
+</div>
+<div class="slideshow-container">
+  <div class="slideshow-wrapper">
+    <!-- Image Section (60%) -->
+    <div class="image-section">
+      <div class="image-container">
+        <img
+          [src]="slides[currentIndex].image"
+          [alt]="slides[currentIndex].title"
+          class="slide-image"
+        />
+
+        <button class="nav-button prev" (click)="previousSlide()" aria-label="Previous slide">
+          <i class="bi bi-chevron-left"></i>
+        </button>
+        <button class="nav-button next" (click)="nextSlide()" aria-label="Next slide">
+          <i class="bi bi-chevron-right"></i>
+        </button>
+
+        <div class="image-counter">{{ currentIndex + 1 }} / {{ slides.length }}</div>
+      </div>
+
+      <!-- Thumbnail Navigation -->
+      <div class="thumbnails">
+        <button
+          *ngFor="let slide of slides; let i = index"
+          class="thumbnail"
+          [class.active]="i === currentIndex"
+          (click)="goToSlide(i)"
+        >
+          <img [src]="slide.image" [alt]="'Thumbnail ' + (i + 1)" />
+        </button>
+      </div>
+    </div>
+
+    <!-- Text Section (40%) -->
+    <div class="text-section">
+      <div class="text-content">
+        <span class="slide-badge">{{'OUR_SERVICES' | translate}}</span>
+        <h2 class="slide-title">{{ slides[currentIndex].title }}</h2>
+        <p class="slide-description">{{ slides[currentIndex].description }}</p>
+
+        <!-- Control Buttons -->
+        <div class="button-group">
+          <button class="control-button primary" (click)="toggleAutoPlay()">
+            <i [class]="isAutoPlaying ? 'bi bi-pause-fill' : 'bi bi-play-fill'"></i>
+            {{ isAutoPlaying ? ('BUTTON_PAUSE' | translate) : ('BUTTON_PLAY' | translate) }}
+          </button>
+          <button class="control-button secondary">
+            <i class="bi bi-telephone-fill"></i>
+            {{'CONTACT_US' | translate}}
+          </button>
+        </div>
+
+        <!-- Dots Indicator -->
+        <div class="dots-container">
+          <span
+            *ngFor="let slide of slides; let i = index"
+            class="dot"
+            [class.active]="i === currentIndex"
+            (click)="goToSlide(i)"
+          >
+          </span>
+        </div>
+
+        <!-- Progress Bar -->
+        <div class="progress-bar">
+          <div
+            class="progress-fill"
+            [style.width.%]="((currentIndex + 1) / slides.length) * 100"
+          ></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ===== About Us Section ===== -->
+<section class="about-section">
+  <div class="container">
+    <h2>{{'ABOUT_US'| translate}}</h2>
+    <p>
+     {{'ABOUT_US_TITLE1' | translate}}
+    </p>
+    <p>
+      {{'ABOUT_US_TITLE2' | translate}}
+    </p>
+  </div>
+</section>
+
+<!-- ===== Our Services Section ===== -->
+<section class="services-section">
+  <div class="container">
+    <h2>{{'OUR_SERVICES' | translate}}</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>🏠 {{'MOVING' | translate}}</h3>
+        <p>
+          Stress-free and secure moving services — locally or across Germany.<br />
+          ➡️ Private Moves • Office Relocations • Furniture Assembly • Transport Service
+        </p>
+      </div>
+      <div class="service-card">
+        <h3>🧹 {{'CLEANING' | translate}}</h3>
+        <p>
+          Reliable and thorough cleaning services for apartments, offices, and post-move
+          cleanups.<br />
+          ➡️ Apartment Cleaning • Office Cleaning • End-of-Tenancy Cleaning
+        </p>
+      </div>
+      <div class="service-card">
+        <h3>♻️ {{'CLEARANCE' | translate}}</h3>
+        <p>
+          We create space and clear unwanted items efficiently and discreetly.<br />
+          ➡️ Basements • Attics • Garages • Entire Households
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Why Choose Us Section ===== -->
+<section class="why-section">
+  <div class="container">
+    <h2>{{'WHY_CHOOSE_US' | translate}}</h2>
+    <ul class="why-list">
+      <li>✅ {{'AFFORDABLE' | translate}}</li>
+      <li>✅ {{'FAST_AND_EFFICIENT' | translate}}</li>
+      <li>✅ {{'CLEAN_AND_CAREFUL' | translate}}</li>
+      <li>✅ {{'WEEKEND_AVAILIBILITY' | translate}}</li>
+      <li>✅ {{'FRIENDLY_AND_PROFESSIONAL' | translate}}</li>
+    </ul>
+  </div>
+</section>
+<!-- ===== Customer Reviews Section ===== -->
+<section class="reviews-section">
+  <div class="container">
+    <h2>{{'CUSTOMER_REVIEWS'|translate}}</h2>
+
+    <div class="reviews-grid" *ngIf="positiveReviews && positiveReviews.length > 0; else noReviews">
+      <div class="review-card" *ngFor="let review of positiveReviews">
+        <div class="review-header">
+          <h3>{{ review.full_name }}</h3>
+          <span class="rating"> ⭐ {{ review.rating }}/5 </span>
+        </div>
+        <p class="review-text">“{{ review.review }}”</p>
+        <div class="review-footer">
+          <small>{{ review.email_address }}</small> •
+        </div>
+      </div>
+    </div>
+
+    <ng-template #noReviews>
+      <p class="no-reviews">{{'NO_REVIEWS' | translate}}</p>
+    </ng-template>
+  </div>
+</section>
+
+<!-- ===== Contact Section ===== -->
+<section class="contact-section">
+  <div class="container">
+    <h2>{{'CONTACT_US' | translate}}</h2>
+    <p><strong>Address:</strong> Schuberstraße 17, 54516 Wittlich, Germany</p>
+    <p><strong>{{'PHONE'|translate}}:</strong> +49 (0) 152 – 18543024</p>
+    <p><strong>Email:</strong> hyuseinovremzi09@gmail.com</p>
+    <p>💬 {{'CONTACT_QUOTE' | translate}}</p>
+  </div>
+</section>

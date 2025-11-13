@@ -1,0 +1,83 @@
+
+.reviews-section h2 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #2E6F40;
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.reviews-section h2::after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(135deg, #68BA7F, #2E6F40);
+  display: block;
+  margin: 1rem auto 2rem;
+  border-radius: 10px;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.review-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(104, 186, 127, 0.15);
+  padding: 2rem;
+  text-align: left;
+  border-left: 5px solid #68BA7F;
+  transition: all 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 40px rgba(104, 186, 127, 0.25);
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.review-header h3 {
+  color: #2E6F40;
+  font-weight: 700;
+  margin: 0;
+}
+
+.rating {
+  background: linear-gradient(135deg, #68BA7F, #2E6F40);
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.review-text {
+  color: #4a5568;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.review-footer {
+  font-size: 0.9rem;
+  color: #718096;
+}
+
+.no-reviews {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-top: 2rem;
+}
