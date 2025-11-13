@@ -31,7 +31,7 @@ export class TranslationService {
       return map;
     }
     const p = this.http
-      .get<Record<string, string>>(`/assets/i18n/${lang}.json`)
+      .get<Record<string, string>>(`assets/i18n/${lang}.json`)
       .toPromise()
       .then((json) => json || {})
       .finally(() => this.inFlight.delete(lang));
