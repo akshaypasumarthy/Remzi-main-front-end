@@ -19,5 +19,77 @@
   "WEEKEND_AVAILIBILITY": "Wochenendverfügbarkeit – Wir passen uns Ihrem Zeitplan an",
   "FRIENDLY_AND_PROFESSIONAL": "Freundlicher & professioneller Service",
   "CUSTOMER_REVIEWS": "Kundenbewertungen",
-  "NO_REVIEWS": "Noch keine Bewertungen verfügbar."
+  "NO_REVIEWS": "Noch keine Bewertungen verfügbar.",
+
+  "SLIDE_1_TITLE": "Professionelle Umzugsdienste",
+  "SLIDE_1_DESC": "Wir behandeln Ihre Gegenstände mit Sorgfalt und Präzision. Unser erfahrenes Team sorgt für den sicheren Transport all Ihrer Sachen an Ihren neuen Standort.",
+
+  "SLIDE_2_TITLE": "Komplette Entrümpelungslösungen",
+  "SLIDE_2_DESC": "Schnelle und effiziente Entrümpelung für Wohnungen, Büros und Gewerbeflächen. Wir entsorgen Gegenstände verantwortungsbewusst und umweltgerecht.",
+
+  "SLIDE_3_TITLE": "Gründliche Reinigungsdienste",
+  "SLIDE_3_DESC": "Tiefenreinigung, die Ihren Raum makellos hinterlässt. Von Böden bis Decken – wir kümmern uns um jedes Detail mit professionellem Equipment.",
+
+  "SLIDE_4_TITLE": "Zuverlässig & Preiswert",
+  "SLIDE_4_DESC": "Qualitätsservice zu fairen Preisen. Wir glauben, dass sich jeder professionelle Umzugs- und Reinigungsunterstützung leisten können sollte.",
+
+  "SLIDE_5_TITLE": "Erfahrenes Team",
+  "SLIDE_5_DESC": "Unsere Fachkräfte verfügen über jahrelange Erfahrung in Umzug, Reinigung und Entrümpelung. Vertrauen Sie uns Ihre wertvollen Gegenstände an.",
+
+  "SLIDE_6_TITLE": "Kundenzufriedenheit",
+  "SLIDE_6_DESC": "Ihre Zufriedenheit hat für uns oberste Priorität. Wir geben unser Bestes, um Ihre Erwartungen bei jedem Einsatz zu übertreffen.",
+
+  "SLIDE_7_TITLE": "Flexible Terminplanung",
+  "SLIDE_7_DESC": "Wir richten uns nach Ihrem Zeitplan. Wochenenden und Abende sind möglich – buchen Sie zu dem Zeitpunkt, der Ihnen passt.",
+
+  "SLIDE_8_TITLE": "Umweltfreundliche Verfahren",
+  "SLIDE_8_DESC": "Wir setzen auf Nachhaltigkeit: umweltgerechte Entsorgung und Recycling, wann immer möglich.",
+
+  "SLIDE_9_TITLE": "Vollversicherung inklusive",
+  "SLIDE_9_DESC": "Alle unsere Leistungen sind vollversichert – so haben Sie während des gesamten Umzugs und der Reinigung Ruhe und Sicherheit.",
+
+  "SLIDE_10_TITLE": "Tagesgleicher Service verfügbar",
+  "SLIDE_10_DESC": "Dringende Hilfe benötigt? Wir bieten einen tagesgleichen Service für Notumzüge und schnelle Reinigungen. Kontaktieren Sie uns für sofortige Unterstützung.",
+
+  "SLIDE_11_TITLE": "Experten für Büroumzüge",
+  "SLIDE_11_DESC": "Minimieren Sie Ausfallzeiten mit unserem effizienten Büroumzugs-Service. Wir kümmern uns um IT, Möbel und Dokumente mit größter Sorgfalt.",
+
+  "SLIDE_12_TITLE": "Lagerlösungen",
+  "SLIDE_12_DESC": "Benötigen Sie Lagerraum? Wir bieten sichere Aufbewahrungsmöglichkeiten für Ihre Gegenstände während der Übergangszeit.",
+
+  "SLIDE_13_TITLE": "Einpack- & Auspackservice",
+  "SLIDE_13_DESC": "Sparen Sie Zeit: Unser professionelles Einpackteam verpackt Ihre Dinge sorgfältig und packt sie am Zielort wieder aus.",
+
+  "SLIDE_14_TITLE": "Nachbaureinigung",
+  "SLIDE_14_DESC": "Spezialreinigung nach Renovierungen oder Bauarbeiten. Wir entfernen Staub, Bauschutt und Rückstände – damit alles bezugsfertig ist.",
+
+  "SLIDE_15_TITLE": "Möbelmontage & -demontage",
+  "SLIDE_15_DESC": "Fachgerechte Montage und Demontage Ihrer Möbel. Wir bauen für den Transport ab und am Zielort wieder fachgerecht zusammen.",
+
+  "SLIDE_16_TITLE": "Entrümpelung von Nachlässen",
+  "SLIDE_16_DESC": "Einfühlsame und professionelle Haushaltsauflösungen. Wir übernehmen vollständige Entrümpelungen respektvoll und effizient.",
+
+  "SLIDE_17_TITLE": "Gewerbliche Reinigungs-Lösungen",
+  "SLIDE_17_DESC": "Halten Sie Ihr Geschäft sauber – regelmäßige oder einmalige Reinigungen für Büros und Gewerbeflächen.",
+
+  "SLIDE_18_TITLE": "Fernumzüge",
+  "SLIDE_18_DESC": "Umzug in eine andere Stadt? Unser Fernumzugsservice sorgt dafür, dass Ihre Gegenstände sicher ankommen – egal wie weit.",
+
+  "SLIDE_19_TITLE": "Packservice",
+  "SLIDE_19_DESC": "Professionelles Verpacken, das Ihre Gegenstände schützt und sicher für den Transport vorbereitet.",
+
+  "SLIDE_20_TITLE": "Spezialreinigung nach Bauarbeiten",
+  "SLIDE_20_DESC": "Gründliche Entfernung von Bauschmutz und Feinstaub – Ihr Objekt ist danach bezugsfertig.",
+  
+  "SERVICE_MOVING_TEXT": "Stressfreie und sichere Umzugsdienste – lokal oder deutschlandweit.",
+  "SERVICE_MOVING_LIST": "Privatumzüge • Firmenumzüge • Möbelmontage • Transportservice",
+
+  "SERVICE_CLEANING_TEXT": "Zuverlässige und gründliche Reinigungsdienste für Wohnungen, Büros und Endreinigungen.",
+  "SERVICE_CLEANING_LIST": "Wohnungsreinigung • Büroreinigung • Endreinigung nach Auszug",
+
+  "SERVICE_CLEARANCE_TEXT": "Wir schaffen Platz und entsorgen unerwünschte Gegenstände effizient und diskret.",
+  "SERVICE_CLEARANCE_LIST": "Keller • Dachböden • Garagen • Komplette Haushalte"
+
+
+
 }

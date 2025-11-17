@@ -19,5 +19,76 @@
   "WEEKEND_AVAILIBILITY": "Weekend Availability – We adapt to your schedule",
   "FRIENDLY_AND_PROFESSIONAL": "Friendly & Professional Service",
   "CUSTOMER_REVIEWS": "Customer Reviews",
-  "NO_REVIEWS": "No reviews available yet."
+  "NO_REVIEWS": "No reviews available yet.",
+  
+  "SLIDE_1_TITLE": "Professional Moving Services",
+  "SLIDE_1_DESC": "We handle your belongings with care and precision. Our experienced team ensures safe transportation of all your items to your new location.",
+
+  "SLIDE_2_TITLE": "Complete Clearance Solutions",
+  "SLIDE_2_DESC": "Fast and efficient clearance services for homes, offices, and commercial spaces. We dispose of items responsibly and environmentally.",
+
+  "SLIDE_3_TITLE": "Deep Cleaning Services",
+  "SLIDE_3_DESC": "Thorough cleaning that leaves your space spotless. From floors to ceilings, we handle every detail with professional equipment.",
+
+  "SLIDE_4_TITLE": "Reliable & Affordable",
+  "SLIDE_4_DESC": "Quality service at competitive prices. We believe everyone deserves professional moving and cleaning assistance without breaking the bank.",
+
+  "SLIDE_5_TITLE": "Experienced Team",
+  "SLIDE_5_DESC": "Our skilled professionals have years of experience in moving, cleaning, and clearance services. Trust us with your most valuable possessions.",
+
+  "SLIDE_6_TITLE": "Customer Satisfaction",
+  "SLIDE_6_DESC": "Your satisfaction is our priority. We go above and beyond to exceed your expectations with every service we provide.",
+
+  "SLIDE_7_TITLE": "Flexible Scheduling",
+  "SLIDE_7_DESC": "We work around your schedule. Available on weekends and evenings for your convenience. Book anytime that suits you best.",
+
+  "SLIDE_8_TITLE": "Eco-Friendly Practices",
+  "SLIDE_8_DESC": "We prioritize environmental responsibility with sustainable disposal methods and recycling whenever possible.",
+
+  "SLIDE_9_TITLE": "Full Insurance Coverage",
+  "SLIDE_9_DESC": "All our services are fully insured, giving you complete peace of mind throughout the entire moving and cleaning process.",
+
+  "SLIDE_10_TITLE": "Same-Day Service Available",
+  "SLIDE_10_DESC": "Need urgent help? We offer same-day service for emergency moves and cleaning. Contact us for immediate assistance.",
+
+  "SLIDE_11_TITLE": "Office Relocation Experts",
+  "SLIDE_11_DESC": "Minimize downtime with our efficient office moving services. We handle IT equipment, furniture, and documents with care.",
+
+  "SLIDE_12_TITLE": "Storage Solutions",
+  "SLIDE_12_DESC": "Need temporary storage? We offer secure storage facilities for your belongings during the transition period.",
+
+  "SLIDE_13_TITLE": "Packing & Unpacking Services",
+  "SLIDE_13_DESC": "Save time with our professional packing services. We carefully wrap, box, and unpack your items safely at your destination.",
+
+  "SLIDE_14_TITLE": "Post-Construction Cleaning",
+  "SLIDE_14_DESC": "Specialized cleaning after renovations or construction. We remove dust, debris, and residue to make your space move-in ready.",
+
+  "SLIDE_15_TITLE": "Furniture Assembly & Disassembly",
+  "SLIDE_15_DESC": "Expert furniture handling. We disassemble items for transport and reassemble them perfectly at your new location.",
+
+  "SLIDE_16_TITLE": "Estate Clearance Services",
+  "SLIDE_16_DESC": "Compassionate and professional estate clearance. We handle complete property clearances respectfully and efficiently.",
+
+  "SLIDE_17_TITLE": "Commercial Cleaning Solutions",
+  "SLIDE_17_DESC": "Keep your business space pristine with our commercial cleaning services. Regular maintenance or one-time deep cleans available.",
+
+  "SLIDE_18_TITLE": "Long-Distance Moving",
+  "SLIDE_18_DESC": "Relocating to another city? Our long-distance moving service ensures your belongings arrive safely, no matter the distance.",
+
+  "SLIDE_19_TITLE": "Packing Service",
+  "SLIDE_19_DESC": "Professional packing that protects your belongings and prepares them safely for transport.",
+
+  "SLIDE_20_TITLE": "Special Cleaning After Construction",
+  "SLIDE_20_DESC": "Thorough removal of construction dust and debris — your property becomes move-in ready.",
+  
+  "SERVICE_MOVING_TEXT": "Stress-free and secure moving services — locally or across Germany.",
+  "SERVICE_MOVING_LIST": "Private Moves • Office Relocations • Furniture Assembly • Transport Service",
+
+  "SERVICE_CLEANING_TEXT": "Reliable and thorough cleaning services for apartments, offices, and post-move cleanups.",
+  "SERVICE_CLEANING_LIST": "Apartment Cleaning • Office Cleaning • End-of-Tenancy Cleaning",
+
+  "SERVICE_CLEARANCE_TEXT": "We create space and clear unwanted items efficiently and discreetly.",
+  "SERVICE_CLEARANCE_LIST": "Basements • Attics • Garages • Entire Households"
+
+
 }
