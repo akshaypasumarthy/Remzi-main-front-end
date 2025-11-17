@@ -1,9 +1,11 @@
 <!-- home-page-component.html -->
 <div>
-  <select class="custom-select" (change)="changeLang($event)">
+    <div class="lang-select-wrapper">
+  <select class="custom-select" (change)="changeLang($event)" aria-label="Choose language">
     <option value="en" [selected]="lang == 'en'">English</option>
     <option value="de" [selected]="lang == 'de'">Deutsch</option>
   </select>
+  </div>
 </div>
 <div class="slideshow-container">
   <div class="slideshow-wrapper">
@@ -43,8 +45,8 @@
     <div class="text-section">
       <div class="text-content">
         <span class="slide-badge">{{'OUR_SERVICES' | translate}}</span>
-        <h2 class="slide-title">{{ slides[currentIndex].title }}</h2>
-        <p class="slide-description">{{ slides[currentIndex].description }}</p>
+        <h2 class="slide-title">{{ slides[currentIndex].title |translate}}</h2>
+        <p class="slide-description">{{ slides[currentIndex].description |translate}}</p>
 
         <!-- Control Buttons -->
         <div class="button-group">
@@ -100,25 +102,26 @@
     <div class="services-grid">
       <div class="service-card">
         <h3>🏠 {{'MOVING' | translate}}</h3>
-        <p>
-          Stress-free and secure moving services — locally or across Germany.<br />
-          ➡️ Private Moves • Office Relocations • Furniture Assembly • Transport Service
-        </p>
+<p>
+  {{ 'SERVICE_MOVING_TEXT' | translate }}<br />
+  ➡️ {{ 'SERVICE_MOVING_LIST' | translate }}
+</p>
+
       </div>
       <div class="service-card">
         <h3>🧹 {{'CLEANING' | translate}}</h3>
-        <p>
-          Reliable and thorough cleaning services for apartments, offices, and post-move
-          cleanups.<br />
-          ➡️ Apartment Cleaning • Office Cleaning • End-of-Tenancy Cleaning
-        </p>
+<p>
+  {{ 'SERVICE_CLEANING_TEXT' | translate }}<br />
+  ➡️ {{ 'SERVICE_CLEANING_LIST' | translate }}
+</p>
       </div>
       <div class="service-card">
         <h3>♻️ {{'CLEARANCE' | translate}}</h3>
-        <p>
-          We create space and clear unwanted items efficiently and discreetly.<br />
-          ➡️ Basements • Attics • Garages • Entire Households
-        </p>
+
+<p>
+  {{ 'SERVICE_CLEARANCE_TEXT' | translate }}<br />
+  ➡️ {{ 'SERVICE_CLEARANCE_LIST' | translate }}
+</p>
       </div>
     </div>
   </div>

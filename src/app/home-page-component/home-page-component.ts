@@ -33,96 +33,94 @@ export class HomePageComponent implements OnInit, OnDestroy {
   slides: Slide[] = [
     {
       image: 'resources/IMG-20251018-WA0007.png',
-      title: 'Professional Moving Services',
-      description: 'We handle your belongings with care and precision. Our experienced team ensures safe transportation of all your items to your new location.'
+      title: 'SLIDE_1_TITLE',
+      description: 'SLIDE_1_DESC'
     },
     {
       image: 'resources/IMG-20251018-WA0020.png',
-      title: 'Complete Clearance Solutions',
-      description: 'Fast and efficient clearance services for homes, offices, and commercial spaces. We dispose of items responsibly and environmentally.'
+      title: 'SLIDE_2_TITLE',
+      description: 'SLIDE_2_DESC'
     },
     {
       image: 'resources/IMG-20251018-WA0019.png',
-      title: 'Deep Cleaning Services',
-      description: 'Thorough cleaning that leaves your space spotless. From floors to ceilings, we handle every detail with professional equipment.'
+      title: 'SLIDE_3_TITLE',
+      description: 'SLIDE_3_DESC'
     },
     {
       image: 'resources/IMG-20251018-WA0013.png',
-      title: 'Reliable & Affordable',
-      description: 'Quality service at competitive prices. We believe everyone deserves professional moving and cleaning assistance without breaking the bank.'
+      title: 'SLIDE_4_TITLE',
+      description: 'SLIDE_4_DESC'
     },
     {
       image: 'resources/IMG-20251018-WA0016.png',
-      title: 'Experienced Team',
-      description: 'Our skilled professionals have years of experience in moving, cleaning, and clearance services. Trust us with your most valuable possessions.'
+      title: 'SLIDE_5_TITLE',
+      description: 'SLIDE_5_DESC'
     },
 
     {
       image: 'resources/IMG-20251018-WA0012.png',
-      title: 'Customer Satisfaction',
-      description: 'Your satisfaction is our priority. We go above and beyond to exceed your expectations with every service we provide.'
+      title: 'SLIDE_6_TITLE',
+      description: 'SLIDE_6_DESC'
     },
     {
       image: 'resources/IMG-20251018-WA0014.png',
-      title: 'Flexible Scheduling',
-      description: 'We work around your schedule. Available on weekends and evenings for your convenience. Book anytime that suits you best.'
+      title: 'SLIDE_7_TITLE',
+      description: 'SLIDE_7_DESC'
     },
     {
       image: 'resources/IMG-20251018-WA0015.png',
-      title: 'Eco-Friendly Practices',
-      description: 'We prioritize environmental responsibility with sustainable disposal methods and recycling whenever possible.'
+      title: 'SLIDE_8_TITLE',
+      description: 'SLIDE_8_DESC'
     },
     {
       image: 'resources/IMG-20251018-WA0009.png',
-      title: 'Full Insurance Coverage',
-      description: 'All our services are fully insured, giving you complete peace of mind throughout the entire moving and cleaning process.'
+      title: 'SLIDE_9_TITLE',
+      description: 'SLIDE_9_DESC'
     },
     {
       image: 'resources/IMG-20251018-WA0011.png',
-      title: 'Same Day Service Available',
-      description: 'Need urgent help? We offer same-day service for emergency moves and cleaning. Contact us for immediate assistance.'
+      title: 'SLIDE_10_TITLE',
+      description: 'SLIDE_10_DESC'
     },
     {
       image: 'resources/IMG-20251018-WA0007.png',
-      title: 'Office Relocation Experts',
-      description: 'Minimize downtime with our efficient office moving services. We handle IT equipment, furniture, and documents with care.'
+      title: 'SLIDE_11_TITLE',
+      description: 'SLIDE_11_DESC'
     },
     {
       image: 'resources/IMG-20251018-WA0008.png',
-      title: 'Storage Solutions',
-      description: 'Need temporary storage? We offer secure storage facilities for your belongings during the transition period.'
+      title: 'SLIDE_12_TITLE',
+      description: 'SLIDE_12_DESC'
     },
-
-
     {
   image: 'resources/1.png',
-  title: 'Packing & Unpacking Services',
-  description: 'Save time and effort with our professional packing services. We carefully wrap and box your items, and unpack them at your destination.'
+  title: 'SLIDE_13_TITLE',
+  description: 'SLIDE_13_DESC'
 },
 {
   image: 'resources/2.png',
-  title: 'Post-Construction Cleaning',
-  description: 'Specialized cleaning after renovations or construction. We remove dust, debris, and residue to make your space move-in ready.'
+  title: 'SLIDE_14_TITLE',
+  description: 'SLIDE_14_DESC'
 },
 {
   image: 'resources/3.png',
-  title: 'Furniture Assembly & Disassembly',
-  description: 'Expert furniture handling service. We carefully disassemble items for transport and reassemble them perfectly at your new location.'
+  title: 'SLIDE_15_TITLE',
+  description: 'SLIDE_15_DESC'
 },
 {
   image: 'resources/4.png',
-  title: 'Estate Clearance Services',
-  description: 'Compassionate and professional estate clearance. We handle complete property clearances with respect and efficiency during difficult times.'
+  title: 'SLIDE_16_TITLE',
+  description: 'SLIDE_16_DESC'
 },
 {
   image: 'resources/5.png',
-  title: 'Commercial Cleaning Solutions',
-  description: 'Keep your business space pristine with our commercial cleaning services. Regular maintenance or one-time deep cleans available.'
+  title: 'SLIDE_17_TITLE',
+  description: 'SLIDE_17_DESC'
 },
 {
   image: 'resources/6.png',
-  title: 'Long Distance Moving',
-  description: 'Relocating to another city? Our long-distance moving service ensures your belongings arrive safely, no matter the distance.'
+  title: 'SLIDE_18_TITLE',
+  description: 'SLIDE_18_DESC'
 }
   ];
 
