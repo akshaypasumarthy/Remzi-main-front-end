@@ -8,7 +8,7 @@ import {map} from 'rxjs';
 })
 export class AdminService {
 
-  baseUrl : String = "http://127.0.0.1:5000/api/"
+  baseUrl : String = "https://remzi.onrender.com/api/"
 
   
   constructor(private httpClient : HttpClient) { }
