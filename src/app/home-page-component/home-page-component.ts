@@ -37,7 +37,7 @@ export class HomePageComponent implements OnInit, OnDestroy {
       description: 'SLIDE_1_DESC'
     },
     {
-      image: 'resources/IMG-20251018-WA0020.png',
+      image: 'resources/8.jpg',
       title: 'SLIDE_2_TITLE',
       description: 'SLIDE_2_DESC'
     },
@@ -92,11 +92,6 @@ export class HomePageComponent implements OnInit, OnDestroy {
       title: 'SLIDE_12_TITLE',
       description: 'SLIDE_12_DESC'
     },
-    {
-  image: 'resources/1.png',
-  title: 'SLIDE_13_TITLE',
-  description: 'SLIDE_13_DESC'
-},
 {
   image: 'resources/2.png',
   title: 'SLIDE_14_TITLE',
