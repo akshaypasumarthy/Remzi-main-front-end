@@ -3,7 +3,7 @@
   backdrop-filter: blur(6px);
   -webkit-backdrop-filter: blur(6px);
   box-shadow: 0 4px 18px rgba(0,0,0,0.08);
-  border-radius: 10px;
+  border-radius: 0px;
   padding: 0.5rem 1rem;
 }
 .navbar .container {
@@ -19,12 +19,12 @@
   color: #212529;
 }
 
-.navbar-brand img {
-    height: 40px;
+/* .navbar-brand img {
+    height: 100px;
     margin-right: 0px;
-    
+    width:100px;
   object-fit: cover;
-}
+} */
 
 .text-group {
     display: flex;
@@ -181,4 +181,10 @@ body {
     text-align: center;
     padding: 0.7rem 0;
   }
+}
+@media (min-width:300px) {
+  
+.logo{
+height: 20vh !important ;
+}
 }
